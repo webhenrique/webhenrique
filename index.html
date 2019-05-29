@@ -4,13 +4,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 html, body { height: 100%; }
-
 body {
   display: flex;
   align-items: center;
   background-color: #f9f9f9;
 }
-
 .container {
   color: #fff;
   max-width: 500px;
@@ -19,7 +17,6 @@ body {
   background-color: rgba(111, 111, 111, 0.5);
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
 }
-
 .background {
   position: absolute;
   top: 0;
@@ -29,14 +26,34 @@ body {
   z-index: -1;
   background: black;
 }
+
+.cvs{
+	position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 2px 10px;
+  	background-color: rgba(111, 111, 111, 0.5);
+    color:white;
+    }
+ .cvs a{
+     color: white;
+    text-decoration: none;
+    }
 </style>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.min.js"></script>
 </head>
 <body>
 
+<div class="cvs">
+	<a href="CV-Europass-20190220-Alves-EN.pdf">CV-EN</a><br>
+	<a href="CV-Europass-20190220-Alves-PT.pdf">CV-PT</a>
+</div>
+
 <div class="container">
   Soon
 </div>
+
+
 
 <canvas class="background"></canvas>
 
